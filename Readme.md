@@ -14,7 +14,7 @@ Before doing any of this I calculate the Binomal coeffictient j over k for every
 
 # How to run this project
 
-## Prerequesites
+## Prerequisites
 
 * Docker
 
