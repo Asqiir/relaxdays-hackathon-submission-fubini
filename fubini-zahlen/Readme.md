@@ -6,7 +6,7 @@ This program is supposed to calculate the first `n` [Fubini](https://en.wikipedi
 
 I use this formula found on [Wikipedia](https://en.wikipedia.org/wiki/Ordered_Bell_number#Recurrence_and_modular_periodicity):
 
-[a(n) = \sum_{i=1}^n {n \choose i} \cdot a(n-i)](<a href="https://www.codecogs.com/eqnedit.php?latex=a(n)&space;=&space;\sum_{i=1}^n&space;{n&space;\choose&space;i}&space;\cdot&space;a(n-i)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?a(n)&space;=&space;\sum_{i=1}^n&space;{n&space;\choose&space;i}&space;\cdot&space;a(n-i)" title="a(n) = \sum_{i=1}^n {n \choose i} \cdot a(n-i)" /></a>)
+<img alt="a(n) = \sum_{i=1}^n {n \choose i} \cdot a(n-i)" src="https://latex.codecogs.com/gif.latex?a(n)&space;=&space;\sum_{i=1}^n&space;{n&space;\choose&space;i}&space;\cdot&space;a(n-i)" />
 
 Instead of recursion I use dynamic programming to determine a(0) first, then a(1), ... up to a(n).
 
