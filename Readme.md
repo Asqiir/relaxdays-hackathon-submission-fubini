@@ -22,7 +22,7 @@ Before doing any of this I calculate the Binomal coeffictient j over k for every
 
 ```bash
 git clone https://github.com/Asqiir/relaxdays-hackathon-submission.git
-cd relaxdays-hackathon-submission
+cd relaxdays-hackathon-submission-fubini
 docker build -t fubini .
 docker run fubini <n>
 ```
