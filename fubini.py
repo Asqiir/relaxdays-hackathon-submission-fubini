@@ -22,4 +22,5 @@ for k in range(1,n): # berechnung der k-ten fubini-zahl
 #	fubini += [val]
 	fubini += [sum([binomiales[k][i] * fubini[k-i] for i in range(1,k+1)])]
 
+print(binomiales)
 print(fubini)
