@@ -8,7 +8,7 @@ def generate_lookup(size):
 		A[i][0]=1
 		A[i][i]=1
 
-	for k in range(0,size):
+	for k in range(1,size):
 		for j in range(k+1,size):
 			A[j][k] = A[j-1][k-1] + A[j-1][k]
 	
